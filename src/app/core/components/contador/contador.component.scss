@@ -1,0 +1,46 @@
+.contador {
+  width: 80vw;
+  max-width: 500px;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mais, .menos {
+  height: 150px;
+  width: 75px;
+  background-color: rgb(30, 125, 189);
+  border-radius: 30px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3.5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.mais:hover, .menos:hover {
+  background-color: rgb(93, 168, 218);
+}
+
+.valor {
+  width: 150px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+}
