@@ -1,5 +1,15 @@
 <div class="contador">
-  <div class="mais">+</div>
-  <div class="valor">00</div>
-  <div class="menos">-</div>
+  <div class="mais" (click)="contadorService.adicionar()">+</div>
+  <div class="valor">{{ contadorService.getHorasDaVerdade() }}</div>
+
+  <div
+    class="menos"
+    (click)="contadorService.diminuir()"
+    *ngIf="contadorService.getHorasDaVerdade() > 0; else desabilita"
+  >
+    -
+  </div>
+  <ng-template #desabilita>
+    <div class="menos desabilita">-</div>
+  </ng-template>
 </div>

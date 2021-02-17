@@ -32,6 +32,15 @@
   background-color: rgb(93, 168, 218);
 }
 
+.desabilita {
+  background-color: rgb(153, 153, 153);
+  cursor: not-allowed;
+}
+
+.desabilita:hover {
+  background-color: rgb(196, 190, 190);
+}
+
 .valor {
   width: 150px;
   height: 150px;
