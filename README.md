@@ -2,6 +2,8 @@
 
 ### Contador de horas da verdade
 
+Acessar: <a href="https://horadaverdade.vercel.app/">horadaverdade.vercel.app</a>
+
 <img src="./src/assets/img/print-mobile.png" width="250">
 
 ## :hammer: **Tecnologias Usadas** :wrench:
